@@ -48,7 +48,7 @@ Authenticated_Api_Client/
 
 ### 1. Clone the repository
 
-git clone <YOUR_GITHUB_REPOSITORY_URL>
+git clone https://github.com/trailspire25-coder/authenticated-api-client.git
 
 ### 2. Navigate into the project directory
 
