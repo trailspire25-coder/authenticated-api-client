@@ -34,14 +34,16 @@ and exception handling.
 
 ## Project Structure
 
+```text
 Authenticated_Api_Client/
 │
 ├── api_client.py       # Reusable API client implementation
 ├── main.py             # Demonstrates API client functionality
-├── .env                # Stores API authentication token
+├── .env                # Stores API authentication token (not committed)
 ├── .gitignore          # Excludes sensitive and unnecessary files
 ├── requirements.txt    # Project dependencies
 └── README.md           # Project documentation
+```
 
 
 ## Installation and Setup
