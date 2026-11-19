@@ -80,3 +80,33 @@ API_TOKEN=your_api_token_here
 
 python main.py
 
+
+## Usage
+
+The API client supports GET, POST, PUT, and DELETE requests.
+
+Example:
+
+    from api_client import APIClient
+
+    client = APIClient("https://api.example.com")
+
+    response = client.get("/products")
+
+    print(response)
+
+
+## Security
+
+API credentials are stored in environment variables
+and are not hardcoded into the application.
+
+The `.env` file is excluded from version control.
+
+
+## Future Improvements
+
+- Automated unit tests
+- Support for additional authentication methods
+- Improved logging
+- Expanded API response handling
