@@ -35,7 +35,7 @@ and exception handling.
 ## Project Structure
 
 ```text
-Authenticated_Api_Client/
+authenticated-api-client/
 │
 ├── api_client.py             # Reusable API client implementation
 ├── main.py                   # Demonstrates API client functionality
@@ -56,7 +56,7 @@ git clone https://github.com/trailspire25-coder/authenticated-api-client.git
 
 ### 2. Navigate into the project directory
 
-cd Authenticated_Api_Client
+cd authenticated-api-client
 
 ### 3. Create a virtual environment
 
@@ -110,7 +110,6 @@ The `.env` file is excluded from version control.
 
 ## Future Improvements
 
-- Automated unit tests
 - Support for additional authentication methods
 - Improved logging
 - Expanded API response handling
