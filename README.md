@@ -37,12 +37,14 @@ and exception handling.
 ```text
 Authenticated_Api_Client/
 │
-├── api_client.py       # Reusable API client implementation
-├── main.py             # Demonstrates API client functionality
-├── .env                # Stores API authentication token (not committed)
-├── .gitignore          # Excludes sensitive and unnecessary files
-├── requirements.txt    # Project dependencies
-└── README.md           # Project documentation
+├── api_client.py             # Reusable API client implementation
+├── main.py                   # Demonstrates API client functionality
+├── tests/
+│   └── test_api_client.py    # Automated tests for API client methods
+├── .env.example              # Template for required environment variables
+├── .gitignore                # Excludes sensitive and unnecessary files
+├── requirements.txt          # Project dependencies
+└── README.md                 # Project documentation
 ```
 
 
