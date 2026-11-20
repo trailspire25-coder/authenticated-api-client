@@ -112,3 +112,13 @@ The `.env` file is excluded from version control.
 - Support for additional authentication methods
 - Improved logging
 - Expanded API response handling
+
+
+## Running Tests
+
+This project uses pytest for automated testing.
+
+Run the test suite with:
+
+```bash
+python -m pytest -v
